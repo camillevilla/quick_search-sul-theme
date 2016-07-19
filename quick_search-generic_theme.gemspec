@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency 'quick_search-core', '~> 0'
+  s.add_dependency 'quick_search-core', '~> 0.1'
   s.add_dependency 'compass', '~> 1.0'
   s.add_dependency 'compass-rails', '~> 3.0'
   s.add_dependency 'foundation-rails', '5.4.5'
