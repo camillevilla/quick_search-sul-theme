@@ -1,3 +1,5 @@
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+@import "bootstrap";
 @import "font-awesome-sprockets";                     // FontAwesome
 @import "font-awesome";                     // FontAwesome
 @import "quick_search_generic_theme/header";

@@ -2,6 +2,7 @@ require 'rubygems'
 require 'sass-rails'
 require 'compass'
 require 'compass-rails'
+require 'jquery-rails'
 require 'bootstrap'
 require 'font-awesome-sass'
 
