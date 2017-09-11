@@ -1,3 +1,8 @@
+// SUL Style Variables/Mixins
+@import 'sul-variables';
+@import 'bootstrap-variables';
+@import 'searchworks-mixins';
+
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
 @import "font-awesome-sprockets";                     // FontAwesome
