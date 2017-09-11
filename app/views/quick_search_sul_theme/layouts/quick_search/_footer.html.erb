@@ -1,32 +1,45 @@
-<footer class="footer">
-  <div class="row full-width">
-    <div class="small-12 medium-3 large-4 columns">
-      <i class="fa fa-question fa-5x"></i>
-      <p><%= t('footer.section_1_text') %></p>
-    </div>
-    <div class="small-12 medium-3 large-4 columns">
-      <i class="fa fa-github fa-5x"></i>
-      <p><%= t('footer.section_2_text') %></p>
-    </div>
-    <div class="small-6 medium-3 large-2 columns">
-      <h4><%= t('footer.section_3_title') %></h4>
-      <ul class="footer-links">
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">Twitter</a></li>
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">Youtube</a></li>
-        <li><a href="#">Flickr</a></li>
-      <ul>
-    </div>
-    <div class="small-6 medium-3 large-2 columns">
-      <h4><%= t('footer.section_4_title') %></h4>
-      <ul class="footer-links">
-        <li><a href="#">Library Homepage</a></li>
-        <li><a href="#">Library Location 1</a></li>
-        <li><a href="#">Library Location 2</a></li>
-        <li><a href="#">Library Location 3</a></li>
-        <li><a href="#">University Homepage</a></li>
-      <ul>
+<footer role="“contentinfo”">
+  <div id="sul-footer-container">
+    <div id="sul-footer">
+      <div id="sul-footer-img" class="span2">
+        <% #TODO: render after asset pipeline issues are resolved: image_tag "sul-logo-stacked.svg", alt: "Stanford Libraries", height: 45 %>
+      </div>
+      <div id="sul-footer-links" class="span2">
+        <ul>
+          <li><a href="https://library.stanford.edu">Stanford Libraries</a></li>
+          <li><a href="https://library.stanford.edu/hours">Hours &amp; locations</a></li>
+          <li> <a href="https://library.stanford.edu/myaccount">My Account</a></li>
+          <li> <a href="https://library.stanford.edu/ask">Ask us</a></li>
+          <li> <a href="https://library.stanford.edu/opt-out">Opt out of analytics</a></li>
+        </ul>
+      </div>
     </div>
   </div>
 </footer>
+<!-- Global footer snippet start -->
+<div id="global-footer">
+  <div class="container">
+    <div class="row">
+      <div id="bottom-logo" class="span2">
+        <a href="https://www.stanford.edu">
+          <img src="https://www.stanford.edu/su-identity/images/footer-stanford-logo@2x.png" alt="Stanford University" width="105" height="49"/>
+        </a>
+      </div>
+      <!-- #bottom-logo end -->
+      <div id="bottom-text" class="span10">
+        <ul>
+          <li class="home"><a href="https://www.stanford.edu">SU Home</a></li>
+          <li class="maps alt"><a href="https://visit.stanford.edu/plan/maps.html">Maps &amp; Directions</a></li>
+          <li class="search-stanford"><a href="https://www.stanford.edu/search/">Search Stanford</a></li>
+          <li class="terms alt"><a href="https://www.stanford.edu/site/terms.html">Terms of Use</a></li>
+          <li class="emergency-info"><a href="http://emergency.stanford.edu">Emergency Info</a></li>
+        </ul>
+      </div> <!-- .bottom-text end -->
+      <div class="clear"></div>
+      <p class="copyright vcard">&copy; <span class="fn org">Stanford University</span>, <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>.&nbsp;&nbsp;
+      <span id="copyright-complaint"><a href="https://www.stanford.edu/group/security/dmca.html" class="copyright-complaint" >Copyright Complaints</a></span>
+      </p>
+    </div> <!-- .row end -->
+  </div> <!-- .container end -->
+</div> <!-- global-footer end -->
+<!-- Global footer snippet end -->
