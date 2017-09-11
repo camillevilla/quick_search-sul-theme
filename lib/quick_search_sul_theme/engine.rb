@@ -4,8 +4,8 @@ require 'jquery-rails'
 require 'bootstrap'
 require 'font-awesome-sass'
 
-module QuickSearchGenericTheme
+module QuickSearchSulTheme
   class Engine < ::Rails::Engine
-    isolate_namespace QuickSearchGenericTheme
+    isolate_namespace QuickSearchSulTheme
   end
 end

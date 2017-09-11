@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
 
-  mount QuickSearchGenericTheme::Engine => "/quick_search_generic_theme"
+  mount QuickSearchSulTheme::Engine => "/quick_search_sul_theme"
 end

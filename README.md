@@ -1,4 +1,4 @@
-# QuickSearchGenericTheme
+# QuickSearchSulTheme
 
 ## Description
 
@@ -8,9 +8,9 @@ This is a gem engine that provides a generic theme for QuickSearch.
 
 Include this gem in your QuickSearch gemfile
 
-    gem 'quick_search-generic_theme'
+    gem 'quick_search-sul_theme'
 
-Add 'quick_search_generic_theme' to the theme configuration key in quick_search_config.yml.
+Add 'quick_search_sul_theme' to the theme configuration key in quick_search_config.yml.
 
 
 

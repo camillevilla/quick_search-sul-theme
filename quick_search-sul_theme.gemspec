@@ -1,17 +1,17 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "quick_search_generic_theme/version"
+require "quick_search_sul_theme/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "quick_search-generic_theme"
-  s.version     = QuickSearchGenericTheme::VERSION
+  s.name        = "quick_search-sul_theme"
+  s.version     = QuickSearchSulTheme::VERSION
   s.authors     = ["Kevin Beswick"]
   s.email       = ["kdbeswic@ncsu.edu"]
   s.homepage    = "http://search.lib.ncsu.edu"
-  s.summary     = "Generic theme for QuickSearch"
-  s.description = "Generic theme gem engine plugin for QuickSearch."
+  s.summary     = "Sul theme for QuickSearch"
+  s.description = "Sul theme gem engine plugin for QuickSearch."
   s.license = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]

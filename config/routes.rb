@@ -1,2 +1,2 @@
-QuickSearchGenericTheme::Engine.routes.draw do
+QuickSearchSulTheme::Engine.routes.draw do
 end
