@@ -11,18 +11,6 @@
         </div>
     </div>
 </div>
-<%# FIXME: This logic could stand a second look %>
-<% unless @wikipedia.is_a? StandardError %>
-    <% unless @best_bets.is_a? StandardError %>
-        <% if @best_bets.results.blank? %>
-            <% unless @wikipedia.spelling_suggestion.blank? %>
-                <%= render partial: 'layouts/quick_search/spelling_suggestion', locals: { spelling_suggestion: @wikipedia.spelling_suggestion} %>
-            <% end %>
-        <% end %>
-    <% end %>
-<% else %>
-    <div id="spelling-suggestion" class="hidden"></div>
-<% end %>
 <div class="row">
     <div class="small-12 large-8 columns">
         <% if @best_bets.is_a? StandardError %>
@@ -37,7 +25,7 @@
 <div class="quicksearch-ga-click-tracking">
     <div class="row articles-catalog">
         <div class="small-12 medium-6 columns summon module">
-          <%= render_module(@arxiv, 'arxiv') %>
+          <%= # render_module(@arxiv, 'arxiv') %>
         </div>
         <div class="small-12 medium-6 columns catalog module">
             <%= render_module(@open_library, 'open_library') %>
